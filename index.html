@@ -3,14 +3,24 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="theme-color" content="#0000FF">
+    <meta name="theme-color" content="#6464de">
     <title>Time</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="style.css">
 </head>
 
+
 <body onload="resizeClock()">
+    <rain class="back-row-toggle splat-toggle">
+        <div class="rain front-row"></div>
+        <div class="rain back-row"></div>
+        <div class="toggles">
+            <div class="splat-toggle toggle active">SPLAT</div>
+            <div class="back-row-toggle toggle active">BACK<br>ROW</div>
+            <div class="single-toggle toggle">SINGLE</div>
+        </div>
+    </rain>
     <main class="container">
         <div class="box">
             <svg class="clock-container">
